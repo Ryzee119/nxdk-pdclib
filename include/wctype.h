@@ -14,6 +14,8 @@ extern "C" {
 #include "pdclib/_PDCLIB_internal.h"
 
 typedef _PDCLIB_wint_t wint_t;
+
+// Xbox-specific types to make this header work
 typedef int wctrans_t;
 typedef int wctype_t;
 
