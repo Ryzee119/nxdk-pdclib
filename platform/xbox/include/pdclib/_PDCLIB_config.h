@@ -126,8 +126,8 @@ struct _PDCLIB_lldiv_t
 #define _PDCLIB_fast32 int
 #define _PDCLIB_FAST32_CONV
 
-#define _PDCLIB_FAST64 LONG
-#define _PDCLIB_fast64 long
+#define _PDCLIB_FAST64 LLONG
+#define _PDCLIB_fast64 long long
 #define _PDCLIB_FAST64_CONV l
 
 /* -------------------------------------------------------------------------- */
